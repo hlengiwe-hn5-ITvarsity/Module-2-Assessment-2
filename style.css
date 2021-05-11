@@ -47,7 +47,7 @@ body{
     padding-bottom: 12px;
 }
 
-/********************HOME-SPECIALS***************/
+/******************HOME-SPECIALS***************/
 #specials{
   margin-top: 300px !important;
   margin: 300px;
@@ -512,7 +512,7 @@ h2{
 #about-page{ 
   margin-top: 230px;
   margin-bottom: 50px;
-  height: 700px;
+  height: 610px;
 }
 
 p6{
@@ -542,7 +542,7 @@ p6{
 }
 
 .image1 {
-  position: fixed;
+  position: absolute;
   top: 230px;
   right:0;
   margin-top: 5px;
@@ -550,14 +550,14 @@ p6{
 }
 
 .image2 {
-  position: fixed;
+  position: absolute;
   top: 450px;
   right: 0;
   margin-bottom: 5px;
 }
 
 .image3 {
-  position: fixed;
+  position: absolute;
   top: 660px;
   right: 0;
   margin-bottom: 5px;
@@ -565,21 +565,22 @@ p6{
 }
 
 .image4 {
-  position: fixed;
+  position: absolute;
   top: 230px;
   left: 0;
+  margin-top: 5px;
   margin-bottom: 5px;
 }
 
 .image5 {
-  position: fixed;
+  position: absolute;
   top: 450px;
   left: 0;
   margin-bottom: 5px;
 }
 
 .image6 {
-  position: fixed;
+  position: absolute;
   top: 660px;
   left: 0;
   margin-bottom: 5px;
@@ -587,13 +588,14 @@ p6{
 
 
 .about{
-  position: fixed;
-  margin-left: 550px;
-  margin-top: 0px;
+  position: absolute;
+  margin-left: 375px;
+  top: 250px;
+  padding-bottom: 50px;
   border: 2px solid #0A4474;
   border-radius:50px; 
   width: 45%;
-  height: 600px;
+  height: 500px;
   background-color: rgba(255, 255, 255, .4); 
   text-align: center;
 }
